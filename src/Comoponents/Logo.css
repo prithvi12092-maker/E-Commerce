@@ -1,0 +1,84 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid orange; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+@media (max-width:480px) {
+    header{
+        height: 50px;
+        width: 100%;
+    }
+    
+}
+.hmlink{
+    color: white;
+    text-decoration: none;
+}
+.hicon{
+    height: 30px;
+    width: 30px;
+    color: orange;
+
+}
+.homeicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:100px;
+
+}
+h1{
+    margin: 10px;
+    font-weight: bold;
+    font: bold;
+}
+span{
+    color: orange;
+    margin-right: 8px;
+}
+.shop{
+    color: rgb(230, 125, 27);
+    height: 2.7rem;
+    width: 2.7rem;
+    margin-right: 30px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+@media (max-width:480px) {
+    .homeicon{
+        margin-left: 22px;
+    }
+    .hicon{
+        height: 25px;
+        width: 25px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    span{
+        font-size: 22px;
+    }
+    .shop{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 22px;
+    }
+    
+}
+
+.shop:hover{
+    border: 1px solid orange;
+    background-color: rgb(150, 60, 15);
+}
+.Lin{
+    color: white;
+    text-decoration: none;
+}
